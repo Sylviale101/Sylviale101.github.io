@@ -130,13 +130,21 @@
             <!--Unordered lists have bullet points-->
             <h2>Unordered Lists</h2>
                 <p>
+                    <!--Changed indentation of ul list-->
                     <b>Here is an example of a unordered list below</b>
-                    <ul>
+                        <ul>
                             <li>Apple Juice</li>
                             <li>Grape Juice</li>
                             <li> Pear Juice</li>
-                    </ul>
+                        </ul>
                 </p>
+                <!--Attempting to center list-->
+                ul {
+                    padding-left: 0;
+                    ul li {
+                        list-style-position: inside;
+                    }
+                }
                 <h3>Note</h3>
                     <p>
                         Unordered lists in HTML <b>appear bulleted</b>
