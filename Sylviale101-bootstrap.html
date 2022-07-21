@@ -2,50 +2,8 @@
 <html>
 <head>
     <title>HTML practice page</title>
-    <!--Practicing adding backgrounds-->
-            <style type="text/css">
-                body {
-                background: hsla(320, 72%, 76%, 0.644);
-                background-image: url(https://sylviale101.github.io/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
-                background-attachment: scroll;
-                background-repeat: no-repeat;
-                font-family:Arial, Helvetica, sans-serif;
-                text-align: center;
-            }
-            /* Adding header fonts - this is how a comment can be made*/
-                h1, h2, h3 {
-                 color: black;
-                    font-family: 'Times New Roman', Times, serif;
-                    font-style: italic;
-                    text-align:center;
-                    font-weight: bold; 
-                }
-                /*Centering table*/
-                table, th, td {    
-                border: 1px solid black;  
-                margin-left: auto;  
-                margin-right: auto;  
-                border-collapse: collapse;    
-                width: 500px;  
-                text-align: center;  
-                font-size: 15px;  
-                } 
-                /*Changing id class background color*/
-                #identified {
-                    font-weight: bold;
-                    font-size: large;
-                    font-style: italic;
-                }
-                /*Centering lists*/
-                ul, ol, li{
-                    list-style-position: inside;
-                    text-align: center;
-                }
-                /*Changes colors when a link is hovered*/
-                a:hover {
-                    color:orange;
-                }
-            </style>
+    <link rel="stylesheet" type="text/css" href="SylviasStyleSheet.css">
+    <!--Practicing adding backgrounds--><!--Mark's comment 7/17: Add an eternal .css stylesheet.-->
 </head>
 <body>
 <!--This is how a comment is made in HTML.-->
@@ -68,7 +26,7 @@
         </p>
 <!--How to use dividers-->
     <h2>Using Dividers</h2>
-        <div id="identified">This div has been identified!</div>
+        <div id="identified"></div>
         <div>
             When using div and ending your code with /div it leaves your sentences and paragraphs with no spaces above or below, making your text squished.
             <br>
@@ -103,17 +61,17 @@
                 <b>Here is an example of a table below.</b>
             </p>
         </p> 
-        <!--Creating the body of a table-->
-        <table border="1" width= "500">
+        <!--Creating the body of a table--><!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
+        <table>
             <tbody>
                 <!--Creating rows for a table-->
                 <tr>
-                    <!--Setting the width of a data cell to 50% and inserting text-->
-                    <td width="50%">Left side of the table</td>
-                    <td width= "50%">Right side of the table</td>
+                    <!--Setting the width of a data cell to 50% and inserting text--><!--Mark's comment 7/17: replace the width attribute with a stylesheet.-->
+                    <th>Left side of the table</th>
+                    <th>Right side of the table</th>
                 </tr>
                 <tr>
-                    <!--Colspan refers to the number of colomns in a table-->
+                    <!--Colspan refers to the number of columns in a table-->
                     <td colspan="2">
                         <p>
                             This is the top half of the table
@@ -186,18 +144,18 @@
         <!--Go back and insert team page below later when the page is created.-->
         <h1>Team Project Page</h1>
             <p>
-                Here is a link to my Project page: <a href="https://github.com/Sylviale101/Sylviale101.github.io">Github Repositoy</a>
+                Here is a link to my Project page: <a href="https://github.com/Sylviale101/Sylviale101.github.io">Github Repository</a>
             </p>
             <h3>Notes</h3>
             <p>
-                Indentation, consistantly saving and commenting while coding is an important habit to have. 
+                Indentation, consistently saving and commenting while coding is an important habit to have. 
                 If I were to unindent/delete comments for my code for the table above then I could've been easily 
                 gotten confused while writing my code. I could've also lost some of my code if something were to happen.
             </p>
 <hr>
         <!--Adding an Image-->
             <!--Changed link + changed width-->
-                <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" width ="500" alt="Studying by Estée Janssens"/>
+                <img src="https://sylviale101.github.io/Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" id="image2" alt="Studying by Estée Janssens"/><!--Mark's comment 7/17: replace width attribute with a stylesheet. And while you're at it, use relative sizing (e.g., 50%) rather tha hardcoding it to 500 pixels.-->
                 <h2>Credits</h2>
                 <!--Credits Section-->
                 <p>
