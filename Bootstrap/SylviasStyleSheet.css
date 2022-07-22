@@ -26,18 +26,18 @@ th {
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    width: 80%;
+    width: 40%;
 }
 td {
     border-bottom: 1px solid black;
     text-align: center;
-    width: 80%;
+    width: 40%;
 }
 /*Changing id class background color*/
 tr {
     column-span: 2;
     font-size: 80%;
-    width: 80%;
+    width: 40%;
 }
 #identified {
     font-weight: bold;
