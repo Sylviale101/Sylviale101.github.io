@@ -19,14 +19,14 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 40%;
 }
 th {
-    font-size: 80%;
+    font-size: 50%;
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    width: 60%;
+    width: 40%;
 }
 td {
     border-bottom: 1px solid black;
@@ -36,7 +36,7 @@ td {
 /*Changing id class background color*/
 tr {
     column-span: 2;
-    font-size: 60%;
+    font-size: 50%;
     width: 40%;
 }
 #identified {
