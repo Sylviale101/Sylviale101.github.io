@@ -30,9 +30,12 @@ p {
 }
 #image2 {
     width: 10%;
-    height: 10%;
+    height: 0%;
 }
 #title {
     align-items: center;
     font-size: large;
+}
+ol,ul,dl {
+    align-items: center;
 }
