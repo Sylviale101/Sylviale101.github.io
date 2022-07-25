@@ -19,25 +19,26 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    width: 50%;
+    width: 30%;
+    font-size: 60%;
 }
 th {
     font-size: 60%;
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    width: 40%;
+    width: 30%;
 }
 td {
     border-bottom: 1px solid black;
     text-align: center;
-    width: 40%;
+    width: 30%;
 }
 /*Changing id class background color*/
 tr {
     column-span: 2;
     font-size: 60%;
-    width: 40%;
+    width: 30%;
 }
 #identified {
     font-weight: bold;
