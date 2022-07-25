@@ -29,5 +29,6 @@ p {
     text-align: center;
 }
 #image2 {
-    size: 40%;
+    width: 40%;
+    height: 40%;
 }
