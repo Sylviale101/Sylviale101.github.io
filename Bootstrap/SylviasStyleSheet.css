@@ -36,3 +36,6 @@ p {
     align-items: center;
     font-size: large;
 }
+li, dt, dd {
+    align-items: center;
+}
