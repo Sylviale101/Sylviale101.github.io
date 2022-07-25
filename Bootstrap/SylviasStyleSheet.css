@@ -19,7 +19,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    width: 50%;
+    width: 60%;
     font-size: 70%;
 }
 th {
@@ -27,7 +27,7 @@ th {
     text-align: center;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    width: 50%;
+    width: 60%;
 }
 td {
     border-bottom: 2px solid black;
