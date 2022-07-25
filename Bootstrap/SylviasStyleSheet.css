@@ -20,25 +20,25 @@ table {
     margin-right: auto;
     border-collapse: collapse;
     width: 30%;
-    font-size: 80%;
+    font-size: 50%;
 }
 th {
-    font-size: 80%;
+    font-size: 30%;
     text-align: center;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    width: 30%;
+    width: 50%;
 }
 td {
     border-bottom: 2px solid black;
     text-align: center;
     width: 30%;
-    font: size 80%;;
+    font-size: 50%;
 }
 /*Changing id class background color*/
 tr {
     column-span: 2;
-    font-size: 80%;
+    font-size: 50%;
     width: 30%;
 }
 #identified {
