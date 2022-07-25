@@ -14,43 +14,20 @@ h1, h2, h3 {
     text-align:center;
     font-weight: bold;
 }
-/*Centering table*/
-table { 
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
+table {
+    align-items: center;
+    font-size:medium;
     width: 30%;
-    font-size: 50%;
+    height: 30%;
+    color:black
 }
-th {
-    font-size: 30%;
-    text-align: center;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    width: 50%;
-}
-td {
-    border-bottom: 2px solid black;
-    text-align: center;
-    width: 30%;
-    font-size: 50%;
-}
-/*Changing id class background color*/
+/*Table row*/
 tr {
+border-bottom: ;
     column-span: 2;
     font-size: 50%;
-    width: 30%;
 }
-#identified {
-    font-weight: bold;
-    font-size: large;
-    font-style: italic;
-}
-/*Centering lists*/
-ul, ol, li{
-    list-style-position: inside;
-    text-align: center;
-}
+
 /*Changes colors when a link is hovered*/
 a:hover {
     color:orange;
