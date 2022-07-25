@@ -25,11 +25,6 @@ table {
 a:hover {
     color:orange;
 }
-#image2 {
-    width: 5%;
-    height: 5%;
-    align-items: center;
-}
 p {
     text-align: center;
 }
