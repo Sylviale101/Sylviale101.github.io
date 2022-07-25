@@ -61,3 +61,6 @@ a:hover {
     height: 25%;
     align-items: center;
 }
+p {
+    text-align: center;
+}
