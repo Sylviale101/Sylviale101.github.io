@@ -21,13 +21,31 @@ table {
     height: 30%;
     color:black
 }
-/*Table row*/
-tr {
-border-bottom: ;
-    column-span: 2;
-    font-size: 50%;
+/*Table */
+table { 
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
 }
-
+th {
+    font-size: 60%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 50%;
+}
+td {
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 50%;
+}
+/*Changing id class background color*/
+tr {
+    column-span: 2;
+    font-size: 60%;
+    width: 50%;
+}
 /*Changes colors when a link is hovered*/
 a:hover {
     color:orange;
