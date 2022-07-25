@@ -29,6 +29,10 @@ p {
     text-align: center;
 }
 #image2 {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
+}
+#title {
+    align-items: center;
+    font-size: large;
 }
