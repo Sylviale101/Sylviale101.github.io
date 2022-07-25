@@ -107,34 +107,24 @@
             </p>
         </p> 
         <!--Creating the body of a table--><!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
-        <table>
-                <div id="table">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Left side of the table</th>
+                <th scope="col">Right Side of the table</th>
+              </tr>
+            </thead>
             <tbody>
-                <!--Creating rows for a table-->
-                <tr>
-                    <!--Setting the width of a data cell to 50% and inserting text--><!--Mark's comment 7/17: replace the width attribute with a stylesheet.-->
-                    <th>Left side of the table</th>
-                    <th>Right side of the table</th>
-                </tr>
-                <tr>
-                    <!--Colspan refers to the number of columns in a table-->
-                    <td colspan="2">
-                        <p>
-                            This is the top half of the table
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p>
-                        This is the bottom half of the table
-                        </p>
-                    </td>
-                </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Top half of the table</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Bottom half of the table
+              </tr>
             </tbody>
-        </table>
-            </div>
-</div>
+          </table>
 <div class="container">
             <h2>Creating A List</h2>
                 <p>
