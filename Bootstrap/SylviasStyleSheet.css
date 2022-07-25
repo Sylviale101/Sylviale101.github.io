@@ -33,7 +33,7 @@ td {
     border-bottom: 2px solid black;
     text-align: center;
     width: 30%;
-    font-size:80;
+    font: size 80%;;
 }
 /*Changing id class background color*/
 tr {
