@@ -13,12 +13,14 @@ body {
         box-shadow: 0px 22px 44px rgba(48, 48, 48, 0.25);
         border-radius: 10px;
     }
+    /*CSS class*/
     #css {
         text-shadow: 100px 100px;
         background-color: solid white;
         width: 5%;
         height: 3%;
     }
+    /*Bootstrap class/site*/
     #bootstrap {
         text-shadow:100px;
         background-color: solid white;
@@ -26,6 +28,7 @@ body {
         height: 5%;
         }
     }
+    /*Personal Trademark*/
     #trademark {
         width: 302px;
         height: 19px;
@@ -39,16 +42,21 @@ body {
         text-align: center;
         color: #303030;
     }
+    /*Personal selfportrait*/
     #selfportrait {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        text-align: center;
     }
+    /*About Page header*/
     #aboutheader {
         text-align: center;
     } 
+    /*About me page desc.*/
     #selfdesc {
         text-align: center;
+        text-indent: 10%;
     }
 }
