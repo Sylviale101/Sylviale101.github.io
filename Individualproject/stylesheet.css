@@ -81,80 +81,53 @@ body {
         color: #303030;
     }
     #htmlpreview {
-        position: absolute;
-        width: 787.31px;
-        height: 544.46px;
-        left: 600px;
-        top: 349px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
     }
     #context {
-        position: absolute;
-        width: 120px;
-        height: 39px;
-        left: 804px;
-        top: 1173.5px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 39px;
         text-align: center;
-        color: #000000;
+    }
+    #contexttext {
+        text-align: center;
+        text-indent: 10%;
     }
     #tools {
-        position: absolute;
-        width: 670px;
-        height: 29px;
-        left: 529px;
-        top: 750.5px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
         text-align: center;
-        color: #000000;
+        text-indent: 10%;
+    }
+    #tooltext{
+        text-align: center;
     }
     #livelink {
-        position: absolute;
-        width: 1073px;
-        height: 39px;
-        left: 327px;
-        top: 840.5px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 39px;
-        text-align: center; 
-        color: #000000;
+        text-align: center;
+        text-indent: 10%;
+        top:auto;
     }
     #learned {
-        position: absolute;
-        width: 219px;
-        height: 39px;
-        left: 754.5px;
-        top: 1000.5px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 39px;
         text-align: center;
-        color: #000000;
+        text-indent: 10%;
+        top:auto;
     }
-    #projdesc {
-        position: absolute;
-        width: 194px;
-        height: 29px;
-        left: 766.5px;
-        top: 700px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
+    #learnedtext {
         text-align: center;
-        color: #000000;
+        text-indent: 10%;
+        top:auto;
+    }
+    #duration {
+        text-align: center;
+        text-indent: 10%;
+        top:auto;
+    }
+    #durationtext {
+        text-align: center;
+        text-indent: 10%;
+        top:auto;
+    }
+    h1, h2, h3 {
+        text-align-last: top;
+        text-align: center;
     }
 }
