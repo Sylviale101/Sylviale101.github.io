@@ -1,5 +1,13 @@
 /*Stylesheet - CSS*/
 body {
+    #navbar {
+        position: absolute;
+        width: 1728px;
+        height: 155.8px;
+        left: 0px;
+        top: 0px;
+        background: #FFEFEF;
+    }
     #html {
         text-shadow: 100 px 100px;
         background-color: solid white;
@@ -13,14 +21,14 @@ body {
         box-shadow: 0px 22px 44px rgba(48, 48, 48, 0.25);
         border-radius: 10px;
     }
-    /*CSS class*/
+    /*CSS page*/
     #css {
         text-shadow: 100px 100px;
         background-color: solid white;
         width: 5%;
         height: 3%;
     }
-    /*Bootstrap class/site*/
+    /*Bootstrap class/site main page preview*/
     #bootstrap {
         text-shadow:100px;
         background-color: solid white;
@@ -42,7 +50,7 @@ body {
         text-align: center;
         color: #303030;
     }
-    /*Personal selfportrait*/
+    /*About Me Page*/
     #selfportrait {
         display: block;
         margin-left: auto;
@@ -50,16 +58,103 @@ body {
         width: 50%;
         text-align: center;
     }
-    /*About Page header*/
     #aboutheader {
         text-align: center;
-    } 
-    /*About me page desc.*/
+    }
     #selfdesc {
         text-align: center;
         text-indent: 10%;
     }
+    /*HTML Page*/
     #htmlhead {
+        position: absolute;
+        width: 1021.49px;
+        height: 84px;
+        left: 353.26px;
+        top: 240.62px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 69px;
+        line-height: 84px;
         text-align: center;
+        color: #303030;
+    }
+    #htmlpreview {
+        position: absolute;
+        width: 787.31px;
+        height: 544.46px;
+        left: 600px;
+        top: 349px;
+    }
+    #context {
+        position: absolute;
+        width: 120px;
+        height: 39px;
+        left: 804px;
+        top: 1173.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+    }
+    #tools {
+        position: absolute;
+        width: 670px;
+        height: 29px;
+        left: 529px;
+        top: 750.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+    }
+    #livelink {
+        position: absolute;
+        width: 1073px;
+        height: 39px;
+        left: 327px;
+        top: 840.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center; 
+        color: #000000;
+    }
+    #learned {
+        position: absolute;
+        width: 219px;
+        height: 39px;
+        left: 754.5px;
+        top: 1000.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+    }
+    #projdesc {
+        position: absolute;
+        width: 194px;
+        height: 29px;
+        left: 766.5px;
+        top: 700px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
     }
 }
