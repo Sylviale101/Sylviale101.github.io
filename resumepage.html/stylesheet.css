@@ -1,6 +1,13 @@
 /*Stylesheet - CSS*/
 body {
-    #image1 {
-        text-shadow: 2 px 2px;
+    #image1{
+        text-shadow: 200 px 200px;
+        height: 5px;
+        width: 5px;
+    }
+    #image2 {
+        text-shadow: 100px 100px;
+        width: 3px;
+        height: 3px;
     }
 }
