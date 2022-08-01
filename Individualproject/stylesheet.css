@@ -40,13 +40,15 @@ body {
         color: #303030;
     }
     #selfportrait {
-    position: absolute;
-    width: 600px;
-    height: 609.2px;
-    left: 562px;
-    top: 340px;
-
-background: url(Screenshot_20220414-053048_Discord.jpg);
-
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #aboutheader {
+        text-align: center;
+    } 
+    #selfdesc {
+        text-align: center;
     }
 }
