@@ -1,10 +1,8 @@
 /*Stylesheet - CSS*/
 body {
     #html {
-        text-shadow: 200 px 200px;
+        text-shadow: 100 px 100px;
         background-color: solid white;
-        height: 2in;
-        width: 2in;
         box-sizing: border-box;
         position: absolute;
         width: 600px;
