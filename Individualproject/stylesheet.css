@@ -64,19 +64,19 @@ body {
     #selfdesc {
         text-align: center;
         text-indent: 10%;
+        margin-right: 2%;
+        margin-top: 1%;
+        margin-left: 2%;
+        width: auto;
+        height: auto;
     }
     /*HTML Page*/
     #htmlhead {
-        position: absolute;
-        width: 1021.49px;
-        height: 84px;
-        left: 353.26px;
-        top: 240.62px;
+        position: center;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 69px;
-        line-height: 84px;
         text-align: center;
         color: #303030;
     }
@@ -84,15 +84,21 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: auto;
         text-align: center;
     }
     #context {
+        position: center;
         text-align: center;
     }
-    #contexttext {
+    #contexttext {        
         text-align: center;
         text-indent: 10%;
+        margin-right: 2%;
+        margin-top: 1%;
+        margin-left: 2%;
+        width: auto;
+        height: auto;
     }
     #tools {
         text-align: center;
@@ -106,10 +112,13 @@ body {
         text-indent: 10%;
         top:auto;
     }
-    #learned {
+    #learned {        
         text-align: center;
-        text-indent: 10%;
-        top:auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-left: auto;
+        width: auto;
+        height: auto;
     }
     #learnedtext {
         text-align: center;
