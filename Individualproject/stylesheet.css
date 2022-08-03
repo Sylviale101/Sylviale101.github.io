@@ -72,11 +72,15 @@ body {
     }
     /*HTML Page*/
     #htmlhead {
-        position: center;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 69px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
         text-align: center;
         color: #303030;
     }
@@ -88,7 +92,10 @@ body {
         text-align: center;
     }
     #context {
-        position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
         text-align: center;
     }
     #contexttext {        
@@ -101,39 +108,39 @@ body {
         height: auto;
     }
     #tools {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
         text-align: center;
-        text-indent: 10%;
     }
     #tooltext{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
         text-align: center;
     }
     #livelink {
-        text-align: center;
-        text-indent: 10%;
-        top:auto;
-    }
-    #learned {        
-        text-align: center;
-        margin-right: auto;
-        margin-top: auto;
+        display: block;
         margin-left: auto;
+        margin-right: auto;
         width: auto;
-        height: auto;
-    }
-    #learnedtext {
         text-align: center;
-        text-indent: 10%;
-        top:auto;
+    }
+    #learned {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        text-align: center;
     }
     #duration {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
         text-align: center;
-        text-indent: 10%;
-        top:auto;
-    }
-    #durationtext {
-        text-align: center;
-        text-indent: 10%;
-        top:auto;
     }
     h1, h2, h3 {
         text-align-last: top;
