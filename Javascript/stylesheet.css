@@ -39,3 +39,14 @@ p {
 ol,ul,dl {
     align-items: center;
 }
+<!--Javascript code starts here-->
+<div class="container">
+    <hr>
+        <h2>Javascript Practice</h2>
+        <p>goal:
+            use Javascript to make a button that selects a random number 1 - 10 from an array
+            - once number is selected, display whatever was selected at the button press
+            - use a conditional to check whether the number was even or odd and print
+            - use a while loop that adds the sum of the selected numbers that resets at 20</p>
+
+</div>
