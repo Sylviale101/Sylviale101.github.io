@@ -218,22 +218,34 @@
             <br>
             - Use a while loop that adds the sum of the selected numbers that resets at 20
         </p>
+        <!--Button Mechanic-->
+        <button onclick="changeNum()">Click to change the number.</button>
         <p id="numbers">
             0
         </p>
-        <!--Button Mechanic-->
-        <button onclick="changeNum()">Click to change the number.</button>
         <script>
             /*Number list*/
-            const numbers=[1,2,3,4,5,6,7,8,9,10];
-            /*random generator*/
-            let newNum=numbers[Math.floor(math.random()* 10)];
-
+            const numbers = [1,2,3,4,5,6,7,8,9,10];
+            /*random num generator*/
             function changeNum() {
-                document.getElementById("numbers").innerHTML = "newNum=" + newNum;
+                let sum = 0;
+                let newNum=numbers[Math.floor(Math.random()* 10)];
+                /*Takes the random num and then adds itself until the loop reaches the random num*/
+                /*for example, if the num is 9 then it adds itself 9 times, which results in sum*/
+                for (let i = 0; i < newNum; i++){
+                    sum += newNum;
+                }
+                /*This is a conditional using if/else statements*/
+                if(newNum % 2 == 0) {
+                /*If a number is even, the code tells the user that the number is even*/
+                document.getElementById("numbers").innerHTML = newNum + " is even. " + newNum + " x " + newNum + " = " + sum;
+                }
+                else {
+                    /*If a number is odd, the code tells the user that the number is odd*/
+                    document.getElementById("numbers").innerHTML = newNum + " is odd. " + newNum + " x " + newNum + " = " + sum;
+                }
             }
         </script>
-
 </div>
 <!--Added a container-->
 <div class="container">
