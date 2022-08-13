@@ -72,7 +72,6 @@
 </div>
 <!--Using the Span Tag-->
 <!--Adding a container-->
-<style>
 <div class="container">
     <h2>Using the Span Tag</h2>
         <p>
@@ -205,6 +204,37 @@
             </p>
         </div>
 </div>
+<div class="container">
+    <hr>
+        <h2>Javascript Practice</h2>
+        <!--goal for the project-->
+        <h3>Goal:</h3>
+        <p>
+            - Use Javascript in order to make a button that selects a random number 1 - 10 from an array
+            <br>
+            - Once a number is selected, display whatever was selected at the button press
+            <br>
+            - Use a conditional to check whether the number was even or odd and print
+            <br>
+            - Use a while loop that adds the sum of the selected numbers that resets at 20
+        </p>
+        <p id="numbers">
+            0
+        </p>
+        <!--Button Mechanic-->
+        <button onclick="changeNum()">Click to change the number.</button>
+        <script>
+            /*Number list*/
+            const numbers=[1,2,3,4,5,6,7,8,9,10];
+            /*random generator*/
+            let newNum=numbers[Math.floor(math.random()* 10)];
+
+            function changeNum() {
+                document.getElementById("numbers").innerHTML = "newNum=" + newNum;
+            }
+        </script>
+
+</div>
 <!--Added a container-->
 <div class="container">
 <hr>
@@ -248,7 +278,6 @@
                 <p>
                     <b>Code Reference Credits to:</b> <a href="https://github.com/markdangerchen">Mark Chen</a>!
                 </p>
-</style>
 </div>
 </body>
 </html>
