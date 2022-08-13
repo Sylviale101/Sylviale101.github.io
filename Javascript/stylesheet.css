@@ -1,8 +1,8 @@
 body {
     background: hsla(320, 72%, 76%, 0.644);
-    background-image: url(https://sylviale101.github.io/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
+    background-image: url(/Images/annie-spratt-zA7I5BtFbvw-unsplash.jpg);
     background-attachment: scroll;
-    background-repeat: no-repeat;
+    background-size: cover;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -29,7 +29,7 @@ p {
     text-align: center;
 }
 #image2 {
-    width: 10%;
+    width: 15%;
     height: 0%;
 }
 #title {

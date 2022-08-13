@@ -3,7 +3,7 @@
 <head>
     <title>HTML practice page</title>
     <!--Bootstrap Stuff-->
-    <link rel="stylesheet" type="text/css" href="SylviasStyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
@@ -203,49 +203,87 @@
              By creating a grid system through using bootstrap, you can divide a section of your webpage in half like this.
             </p>
         </div>
-</div>
-<div class="container">
-    <hr>
-        <h2>Javascript Practice</h2>
-        <!--goal for the project-->
-        <h3>Goal:</h3>
-        <p>
-            - Use Javascript in order to make a button that selects a random number 1 - 10 from an array
-            <br>
-            - Once a number is selected, display whatever was selected at the button press
-            <br>
-            - Use a conditional to check whether the number was even or odd and print
-            <br>
-            - Use a while loop that adds the sum of the selected numbers that resets at 20
-        </p>
-        <!--Button Mechanic-->
-        <button onclick="changeNum()">Click to change the number.</button>
-        <p id="numbers">
-            0
-        </p>
-        <script>
-            /*Number list*/
-            const numbers = [1,2,3,4,5,6,7,8,9,10];
-            /*random num generator*/
-            function changeNum() {
-                let sum = 0;
-                let newNum=numbers[Math.floor(Math.random()* 10)];
-                /*Takes the random num and then adds itself until the loop reaches the random num*/
-                /*for example, if the num is 9 then it adds itself 9 times, which results in sum*/
-                for (let i = 0; i < newNum; i++){
-                    sum += newNum;
-                }
-                /*This is a conditional using if/else statements*/
-                if(newNum % 2 == 0) {
-                /*If a number is even, the code tells the user that the number is even*/
-                document.getElementById("numbers").innerHTML = newNum + " is even. " + newNum + " x " + newNum + " = " + sum;
-                }
-                else {
-                    /*If a number is odd, the code tells the user that the number is odd*/
-                    document.getElementById("numbers").innerHTML = newNum + " is odd. " + newNum + " x " + newNum + " = " + sum;
-                }
-            }
-        </script>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">  
+                <h2>Bootstrap Grid Systems</h2>
+                <p>
+                    This is an example of a grid system. 
+                </p>
+              </div>
+                <div class="col">
+                    <p>
+                     By creating a grid system through using bootstrap, you can divide a section of your webpage in half like this.
+                    </p>
+                </div>
+        </div>
+        <div class="container">
+            <hr>
+                <h2>Javascript Practice</h2>
+                <!--goal for the project-->
+                <h3>Goal:</h3>
+                <p>
+                    - Use Javascript in order to make a button that selects a random number 1 - 10 from an array
+                    <br>
+                    - Once a number is selected, display whatever was selected at the button press
+                    <br>
+                    - Use a conditional to check whether the number was even or odd and print
+                    <br>
+                    - Use a while loop that adds the sum of the selected numbers that resets at 20
+                </p>
+                <!--Button Mechanic-->
+                <button onclick="changeNum()">Click to change the number.</button>
+                <p id="numbers">
+                    0
+                </p>
+                <script>
+                    /*Number list*/
+                    const numbers = [1,2,3,4,5,6,7,8,9,10];
+                    /*random num generator*/
+                    function changeNum() {
+                        let sum = 0;
+                        let newNum=numbers[Math.floor(Math.random()* 10)];
+                        /*Takes the random num and then adds itself until the loop reaches the random num*/
+                        /*for example, if the num is 9 then it adds itself 9 times, which results in sum*/
+                        for (let i = 0; i < newNum; i++){
+                            sum += newNum;
+                        }
+                        /*This is a conditional using if/else statements*/
+                        if(newNum % 2 == 0) {
+                        /*If a number is even, the code tells the user that the number is even*/
+                        document.getElementById("numbers").innerHTML = newNum + " is even. " + newNum + " x " + newNum + " = " + sum;
+                        }
+                        else {
+                            /*If a number is odd, the code tells the user that the number is odd*/
+                            document.getElementById("numbers").innerHTML = newNum + " is odd. " + newNum + " x " + newNum + " = " + sum;
+                        }
+                    }
+                </script>
+        </div>
+        <!--Added a container-->
+        <div class="container">
+        <hr>
+                <!--Go back and insert team page below later when the page is created.-->
+                <h1>Team Project Page</h1>
+                    <p>
+                        <!--Testing adding an icon-->
+                        Here is a link to my Personal Project page: 
+                        <!--Added a line break-->
+                        <br>
+                        <!--Added Github icon using bootstrap v5.2-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                          </svg> <a href="https://github.com/Sylviale101"> Github Repository</a>
+                    </p>
+                    <h3>Notes</h3>
+                    <p>
+                        Indentation, consistently saving and commenting while coding is an important habit to have. 
+                        <!--Added a Line Break-->
+                        <br>
+                        If I were to unindent/delete comments for my code for the table above then I could've been easily 
+                        gotten confused while writing my code. I could've also lost some of my code if something were to happen.
+                    </p>
+        </div>
 </div>
 <!--Added a container-->
 <div class="container">
@@ -278,7 +316,7 @@
             <!--Changed link + changed width-->
             <class id="image2">
                 <!--Rounded the corners of the image using bootstrap-->
-                <img src="https://sylviale101.github.io/Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" class="figure-img img-fluid rounded" alt="Studying by Estée Janssens"/>
+                <img src="/Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg" class="figure-img img-fluid rounded" alt="Studying by Estée Janssens"/>
             </class>
             </div>
                 <h2>Credits</h2>
