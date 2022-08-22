@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: rgb(181, 230, 236);
+    /*Color used to highlight header*/
+}
+h1 {
+    color:black;
+}
+h1::before {  
+    transform: scaleX(0);
+    /*Tells the animation where to end the highlighting*/
+    transform-origin: top right;
+  }
+  h1:hover::before {
+    transform: scaleX(1);
+    /*Tells the animation where to start the highlighting*/
+    transform-origin: top left;
+  }
+  h1::before {
+    /*Position of the highlighting box before it is hovered*/
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    /*Highlighted text bg color*/
+    background: pink;
+    z-index: -1;
+    /*How fast the animation for highlighting the text appears/disappears*/
+    transition: transform .3s ease;
+  }
+  h1 {
+    /*Position/size of h1*/
+    position: relative;
+    font-size: 5rem;
+  }
+  html {
+    /*Size of the block as seen by various browsers*/
+    block-size: 100%;
+    inline-size: 100%;
+  }
+  /*Highlighting container size/text font for h1*/
+    box-sizing: border-box;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+
