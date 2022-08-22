@@ -31,7 +31,6 @@ h1::before {
   h1 {
     /*Position/size of h1*/
     position: relative;
-    font-size: 5rem;
   }
   html {
     /*Size of the block as seen by various browsers*/
