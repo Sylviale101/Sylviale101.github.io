@@ -42,4 +42,20 @@ h1::before {
     box-sizing: border-box;
     place-content: center;
     font-family: system-ui, sans-serif;
-
+}
+/*Animated click-here button referenced by https://www.w3schools.com/howto/howto_css_animate_buttons.asp*/
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+/*If the button is hovered then the button turns pink*/
+.button:hover {background-color: #eeb0e3}
+}
