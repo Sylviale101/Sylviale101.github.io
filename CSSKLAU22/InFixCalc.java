@@ -10,7 +10,7 @@ import java.util.*;
  * Execution: calculate 1 * -3 first, then -3 + 6 next, then 3 / 3
  * last to obtain the value 1
 *
-* Solution by 
+* Solution by Sylvia Le
 */
 public class InFixCalc {
     //example pattern: "3 + 5"
@@ -30,12 +30,14 @@ public class InFixCalc {
 
     //preconditions: all binary operations are separated via a space
     //postconditions: returns the result of the processed string
+    import scanner;
     public static int calculate(String input) {
         int lhs = 0; //short for left-hand side
         int rhs = 0; //short for right-hand side
         char operation;
-        /*todo: your name and code goes here*/
+        /*todo: Sylvia Le
         /*You need a Scanner(or StringTokenizer) to get tokens
+        new scanner.scnr;
           *Then you need a loop, and switch inside that loop*/
         return lhs;
     }
