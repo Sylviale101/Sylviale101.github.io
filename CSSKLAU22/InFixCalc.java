@@ -18,7 +18,8 @@ public class InFixCalc {
     //special case: 
     //other special cases?
 
-    public static void main(String[] args) { //String input = "4 + 4";
+    public static void main(String[] args) { 
+        //String input = "4 + 4";
         //String input = "4 + 4 / 2";
         //String input ="1 * -3";
         String input ="1 * -3 + 6 / 3";
