@@ -1,0 +1,32 @@
+public class Problem1 {
+    // Do not change signature (function name, parameters, return type)
+    public static int binarySearch(int[] data, int target) {
+        // TODO: Add your solution
+        if (data== null data.length==0) {
+            return -1;
+        }
+         {
+        int start = 0, end = data.length-1;
+         int mid = (start + end) / 2;
+         }
+        
+        while (start >= end) {
+            int mid = (start + end) /2;
+
+            if (date [mid[ == target) {
+                return mid;
+             }
+
+            if (target > data [mid]) {
+                return mid;
+            }
+            if (target > data[mid]) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+        
+            }
+        }
+    }
+    return -1;
+}
