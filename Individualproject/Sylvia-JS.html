@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML practice page</title>
+    <!--Bootstrap Stuff-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="pl-md-8 navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <a class="navar-brand" href="https://github.com/Sylviale101/">BIMD 233 Page</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+            aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="myNavbar" class="collapse navbar-collapse">
+            <!--Mark's comment 8/15: This throws up an error message in the Problems panel so prob get rid of the empty style attribute.-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="https://sylviale101.github.io/Team2HTML/Sylviale101.html">HTML Page</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://lily-cs.github.io/Team2CascadingStyleSheet/SylviasCSS/Sylviale101.html">CSS
+                                Page</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://sylviale101.github.io/Team2HTML/Index.html">Team
+                                Index Page</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--This is how a comment is made in HTML.-->
+    <!--Adding a container-->
+    <div class="container">
+        <!--Flex box-->
+        <div class="container">
+            <div id="title">
+                <h1>Welcome to Sylvia's HTML practice page!</h1>
+                <p>
+                    This is my first HTML practice page. Here, I will be learning html using some basic tags!
+                </p>
+                <h3>Notes</h3>
+                <p>
+                    Although this may seem easy, always make sure you indent and organize your code well! Otherwise,
+                    everything will be cluttered...
+                </p>
+            </div>
+        </div>
+        <!--This section is for practicing html tags.-->
+        <!--Added a container-->
+        <div class="container">
+            <hr>
+            <h1>Basic Intro to HTML</h1>
+            <!--Playing with adding another hr-->
+            <hr>
+            <h2>Creating Paragraphs</h2>
+            <p>
+                In order to create a body for a paragraph, you should use p and end the sentence with /p. By doing so,
+                this is how you create your first paragraph!
+            </p>
+        </div>
+        <!--Adding a width container-->
+        <!--How to use dividers-->
+        <!--Added a container-->
+        <div class="container">
+            <h2>Using Dividers</h2>
+            <div id="identified"></div>
+            <div>
+                When using div and ending your code with /div it leaves your sentences and paragraphs with no spaces
+                above or below, making your text squished.
+                <br>
+                It may seem indifferent to making paragraphs since they are similar to each other. However, if you pay
+                close attention to how the text is cluttered, you'll notice it.
+            </div>
+        </div>
+        <!--Using the Span Tag-->
+        <!--Adding a container-->
+        <div class="container">
+            <h2>Using the Span Tag</h2>
+            <p>
+                By using the span tag, you can style your words and change the font of them. For example:
+                I like the color <span style="color:plum">plum</span> a lot!
+            </p>
+        </div>
+        <!--How to use Line Breaks-->
+        <div class="container">
+            <h2>Implementing Line Breaks</h2>
+            <p>
+                Let's say we're making a long paragraph and you want to make a sentence go onto the next line. By doing
+                so, we use the tag br, which means to "break" a line.
+                <br>
+                This is an example of it!
+            </p>
+        </div>
+        <!--How to Emphasize Text-->
+        <!--Added a container-->
+        <div class="container">
+            <h2>Emphasizing Text</h2>
+            <p>
+                Being able to emphasize text is nice. By being able to do so, I can use b to bold important text like
+                <b>this</b> or use <strong>strong</strong> instead.
+                I could also create italic text by using an i tag like <i>this</i>
+            </p>
+        </div>
+        <!--How to create a table-->
+        <!--Added a container-->
+        <div class="container">
+            <h2>Creating A Table</h2>
+            <p>
+                Creating a table may seem intimidating but you can create a table by
+                using a td tag (The data cell of a table) or by using the tr tag (the rows in a table)
+                <br>
+                <p>
+                    <b>Here is an example of a table below.</b>
+                </p>
+            </p>
+            <!--Creating the body of a table-->
+            <!--Mark's comment 7/17: replace the border and width attributes with a stylesheet.-->
+            <!--Table changes to suit bootstrap better-->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Left side of the table</th>
+                        <th scope="col">Right Side of the table</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Top half of the table</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Bottom half of the table</td>
+                            <!--Mark's comment 8/15: missing a closing /td here.-->
+                    </tr>
+                </tbody>
+            </table>
+            <!--Added a container-->
+            <div class="container">
+                <h2>Creating A List</h2>
+                <p>
+                    A list in HTML can be created in three different ways: Ordered (ol), Unordered (ul), and descriptive
+                    (dl).
+                </p>
+                <!--Ordered Lists are numbered-->
+                <h2>Ordered Lists</h2>
+                <p>
+                    <b>Here is an example of an ordered list below</b>
+                </p>
+                <ol>
+                    <li>Apple Juice</li>
+                    <li>Grape Juice</li>
+                    <li>Pear Juice</li>
+                </ol>
+                <h3>Note</h3>
+                <p>
+                    Ordered Lists appear <b>numbered</b>
+                </p>
+                <!--Unordered lists have bullet points-->
+                <h2>Unordered Lists</h2>
+                <p>
+                    <!--Changed indentation of ul list-->
+                    <b>Here is an example of a unordered list below</b>
+                    <!--Identifying ul class-->
+                    <ul class="unordered">
+                        <ul>
+                            <li>Apple Juice</li>
+                            <li>Grape Juice</li>
+                            <li> Pear Juice</li>
+                        </ul>
+                    </ul>
+                </p>
+                <h3>Note</h3>
+                <p>
+                    Unordered lists in HTML <b>appear bulleted</b>
+                </p>
+            </div>
+            <!--Added a container-->
+            <div class="container">
+                <!--Description lists provide detaied descriptions about an item within a list-->
+                <h2>Description Lists</h2>
+                <p>
+                    <b>Here is an example of a description list below</b>
+                    <dl>
+                        <dt><b>Apple Juice</b></dt>
+                        <dd><i>Juice Freshly pressed from apples</i></dd>
+                        <dt><b>Grape Juice</b></dt>
+                        <dd><i>Juice obtained from crushed grapes</i></dd>
+                        <dt><b>Pear Juice</b></dt>
+                        <dd><i>Fresh juice created from pears being blended with water</i></dd>
+                    </dl>
+                </p>
+                <h3>Note</h3>
+                <p>
+                    Description lists have <b>three</b> different tags: dl <b>(description list)</b>, dt <b>(defined
+                        term)</b>, and dd <b>(the description of each term)</b>.
+                </p>
+            </div>
+            <hr>
+            <!--Adding a grid system by making columns-->
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2>Bootstrap Grid Systems</h2>
+                        <p>
+                            This is an example of a grid system.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            By creating a grid system through using bootstrap, you can divide a section of your webpage
+                            in half like this.
+                        </p>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h2>Bootstrap Grid Systems</h2>
+                                <p>
+                                    This is an example of a grid system.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    By creating a grid system through using bootstrap, you can divide a section of your
+                                    webpage in half like this.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Beginning of Javascript code-->
+                        <div class="container">
+                            <hr>
+                            <h2>Javascript Practice</h2>
+                            <!--goal for the project-->
+                            <h3>Goal:</h3>
+                            <p>
+                                - Use Javascript in order to make a button that selects a random number 1 - 10 from an
+                                array
+                                <br>
+                                - Once a number is selected, display whatever was selected at the button press
+                                <br>
+                                - Use a conditional to check whether the number was even or odd and print the number
+                                <br>
+                                - Use a for loop to multiply the random number by itself
+                            </p>
+                            <!--Button Mechanic-->
+                            <button onclick="changeNum()">Click to change the number.</button>
+                            <p id="numbers">
+                                0
+                            </p>
+                            <script>
+                                /*Number list*/
+                                const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                                /*random num generator*/
+                                function changeNum() {
+                                    let sum = 0;
+                                    let newNum = numbers[Math.floor(Math.random() * 10)];
+                                    /*Takes the random num and then adds itself until the loop reaches the random num*/
+                                    /*for example, if the num is 9 then it adds itself 9 times, which results in sum*/
+                                    for (let i = 0; i < newNum; i++) {
+                                        sum += newNum;
+                                    }
+                                    /*This is a conditional using if/else statements*/
+                                    if (newNum % 2 == 0) {
+                                        /*If a number is even, the code tells the user that the number is even*/
+                                        document.getElementById("numbers").innerHTML = newNum + " is even. " + newNum +
+                                            " x " + newNum + " = " + sum;
+                                    } else {
+                                        /*If a number is odd, the code tells the user that the number is odd*/
+                                        document.getElementById("numbers").innerHTML = newNum + " is odd. " + newNum +
+                                            " x " + newNum + " = " + sum;
+                                    }
+                                }
+                            </script>
+                            <!--End of Javascript code-->
+                        </div>
+                        <!--Added a container-->
+                        <div class="container">
+                            <hr>
+                            <!--Go back and insert team page below later when the page is created.-->
+                            <h1>Team Project Page</h1>
+                            <p>
+                                <!--Testing adding an icon-->
+                                Here is a link to my Personal Project page:
+                                <!--Added a line break-->
+                                <br>
+                                <!--Added Github icon using bootstrap v5.2-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-github" viewbox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                </svg> <a href="https://github.com/Sylviale101"> Github Repository</a>
+                            </p>
+                            <h3>Notes</h3>
+                            <p>
+                                Indentation, consistently saving and commenting while coding is an important habit to
+                                have.
+                                <!--Added a Line Break-->
+                                <br>
+                                If I were to unindent/delete comments for my code for the table above then I could've
+                                been easily
+                                gotten confused while writing my code. I could've also lost some of my code if something
+                                were to happen.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--Added a container-->
+                    <div class="container">
+                        <!--Adding an Image-->
+                        <!--Changed link + changed width-->
+                        <class id="image2">
+                            <!--Rounded the corners of the image using bootstrap-->
+                            <img src="Images/estee-janssens-8fQ-k_Wd9yU-unsplash.jpg"
+                                class="figure-img img-fluid rounded" alt="Studying by Estée Janssens" />
+                        </class>
+                    </div>
+                    <h2>Credits</h2>
+                    <!--Credits Section-->
+                    <p>
+                        <!--Hyperlinking a text-->
+                        <b>Image Credits to:</b> Estée Janssens on <a
+                            href="https://unsplash.com/s/photos/study-aesthetic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            class="unsplash">Unsplash</a>
+                    </p>
+                    <p>
+                        <b>Code Reference Credits to:</b> <a href="https://github.com/markdangerchen">Mark Chen</a>!
+                    </p>
+                </div><!--Mark's comment 8/15: missing a final /div tag.-->
+                <!--Sylvia - It kept throwing errors so I added more </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
